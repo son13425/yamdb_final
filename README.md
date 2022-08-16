@@ -89,3 +89,5 @@ YaMDB отправляет письмо с кодом подтверждения
 
 ## Лицензия
 Сценарии и документация в этом проекте выпущены под лицензией MIT
+
+![example event parameter](https://github.com/son13425/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
