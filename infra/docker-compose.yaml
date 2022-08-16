@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: ../api_yamdb
+    image: son134/infra_web:v3.08.2022
     restart: always
     volumes:
       - static_value:/app/static/
