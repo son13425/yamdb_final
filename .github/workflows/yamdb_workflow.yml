@@ -39,6 +39,8 @@ jobs:
         with:
           push: true
           tags: son134/infra_web:v3.08.2022
+          context: api_yamdb
+          file: api_yamdb/Dockerfile
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
